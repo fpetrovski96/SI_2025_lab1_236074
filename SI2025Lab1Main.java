@@ -91,8 +91,13 @@ class TaskManager {
 
     // 6. Find the highest-priority unfinished task
     public List<Task> getMostUrgentTasks() {
-        // TODO: Implement logic to find most urgent tasks
-        return new ArrayList<>();
+        ArrayList<Task> mostUrgentTasks = new ArrayList<>();
+        for (Task task : tasks) {
+            if (task.getPriority() == Priority.HIGH) {
+                mostUrgentTasks.add(task);
+            }
+        }
+        return mostUrgentTasks;
     }
 
     // 7. Count tasks per category
