@@ -1,0 +1,24 @@
+*   4896cba Merge branch '6-find-the-highest-priority-unfinished-task'
+|\  
+| * 579621f Commit findHighestPriorityTask
+* | 076a933 Saving changes
+* |   f39e72b Merge pull request #12 from fpetrovski96/9-mark-all-tasks-in-a-category-as-completed
+|\ \  
+| * | d0df4d5 Commit markTasksAsCompleted
+| |/  
+* |   01f6280 Merge pull request #10 from fpetrovski96/7-count-tasks-per-category
+|\ \  
+| |/  
+|/|   
+| * f30213e Commit countTasksPerCategory
+|/  
+* 3c7dabb Delete Downloads/SI2025Lab1Main.java
+* f0ba6ea Add starter code
+*   62399fc Initial commit
+|\  
+| * 869b3c8 Initial commit
+| * 90e7a48 Initial commit
+| * 9770d04 Update README.md
+* | 2404ff4 Add starter code
+|/  
+* 4863df4 first commit

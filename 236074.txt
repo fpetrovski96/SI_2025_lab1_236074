@@ -1,0 +1,27 @@
+git remote add origin https://github.com/YOUR_USERNAME/SI_2025_lab1_236074.git
+git add README.md
+git commit -m "Initial commit"
+git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+git push -u origin master
+git fetch origin
+git checkout 7-count-tasks-per-category
+git add SI2025Lab1Main.java
+git commit -m "Commit countTasksPerCategory"
+git push origin 7-count-tasks-per-category
+git checkout 6-find-the-highest-priority-unfinished-task
+git add SI2025Lab1Main.java
+git commit -m "Commit countTasksPerCategory"
+git push origin 6-find-the-highest-priority-unfinished-task
+git checkout 9-mark-all-tasks-in-a-category-as-completed
+git add SI2025Lab1Main.java
+git commit -m "Commit markTasksAsCompleted"
+git push origin 9-mark-all-tasks-in-a-category-as-completed
+git checkout master
+git pull origin master
+git merge 6-find-the-highest-priority-unfinished-task
+git push origin master
+git log --oneline --graph --all > logs.txt
+
+
+
